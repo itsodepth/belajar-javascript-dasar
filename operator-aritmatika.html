@@ -14,8 +14,8 @@
 
             result = result - 1; //2
             document.writeln("Operasi pengurangan");
-            document.writeln("<p>" + originalResult + " - 1 = " + result + "</p>");
-            originalResult = result;
+            document.writeln("<p>" + originalResult + " - 1 = " + result + "</p>"); //originalResult ini dipanggil untuk mendeklarasikan angka 3 dan result di dalam situ sudah melalui pengurangan
+            originalResult = result; //karena originalResult = result, dan result udah dikurangi 1, maka originalResult udah berubah jadi 2
 
             result = result * 2; //4
             document.writeln("Operasi perkalian");
